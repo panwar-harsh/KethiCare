@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Image Display -->
+        <ImageView
+            android:id="@+id/resultImageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/image_border"
+            android:scaleType="centerCrop" />
+
+        <!-- Plant Info Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/plantInfoButton"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edittext_background"
+            android:elevation="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="Plant Info"
+            android:textAllCaps="false"
+            android:textColor="@color/startColor"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Disease Status Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f3f3f3"
+            android:elevation="8dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Health status -->
+                <TextView
+                    android:id="@+id/healthStatusTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- Check regularly -->
+                <TextView
+                    android:id="@+id/checkRegularlyTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textSize="14sp" />
+
+                <!-- Divider -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="12dp"
+                    android:background="@color/gray" />
+
+                <!-- Disease info -->
+                <TextView
+                    android:id="@+id/diseaseInfoTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Additional Information -->
+        <TextView
+            android:id="@+id/causueTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:textColor="#012B0F"
+            android:fontFamily="@font/lato"
+            android:text="Causes"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/causesContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp" />
+
+        <!-- Prevention -->
+        <TextView
+            android:id="@+id/preventionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16sp"
+            android:textColor="#012B0F"
+            android:fontFamily="@font/lato"
+            android:text="Prevention"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/preventionContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/retakeButton"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="Retake"
+            android:textAllCaps="false"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:background="@drawable/next_button_shape"
+            />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

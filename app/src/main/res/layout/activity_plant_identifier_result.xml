@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Captured Image -->
+        <ImageView
+            android:id="@+id/resultImageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/image_border"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Plant Info Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/AddToMyPlantButton"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edittext_background"
+            android:elevation="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="Add to my Plants"
+            android:textAllCaps="false"
+            android:textColor="@color/startColor"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Plant Name -->
+        <TextView
+            android:id="@+id/plantNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:layout_marginStart="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:layout_gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/resultImageView"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <!-- Disease Status Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/diagnoseCardview"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardBackgroundColor="#DEF2FD"
+            android:elevation="8dp"
+            app:cardCornerRadius="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Diagnose Now"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/lato"
+                    android:textAllCaps="false"
+                    android:background="@drawable/diagnosis_button_bg"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/protect_icon" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="Your Plant may not be healthy ?"
+                    android:textColor="@color/dark_green"
+                    android:textSize="20sp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Temperature Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#f3f3f3"
+            android:elevation="8dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:background="#f3f3f3">
+
+                <ImageView
+                    android:id="@+id/image_temperature"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/temp_identifier_result" />
+
+                <TextView
+                    android:id="@+id/title_temperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:fontFamily="@font/lato"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/dark_green"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/value_temperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15°C to 30°C"
+                    android:textSize="16dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/dark_green"
+                    app:layout_constraintStart_toStartOf="@+id/title_temperature"
+                    app:layout_constraintTop_toBottomOf="@+id/title_temperature" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Sunlight Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#f3f3f3"
+            android:elevation="8dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:background="#f3f3f3">
+
+                <ImageView
+                    android:id="@+id/image_sunlight"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/sun_identifier_result" />
+
+                <TextView
+                    android:id="@+id/title_sunlight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sunlight"
+                    android:fontFamily="@font/lato"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/dark_green"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/value_sunlight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Full Sun to Partial Shade"
+                    android:textSize="16dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/dark_green"
+                    app:layout_constraintStart_toStartOf="@+id/title_sunlight"
+                    app:layout_constraintTop_toBottomOf="@+id/title_sunlight" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Temperature Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#f3f3f3"
+            android:elevation="8dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:background="#f3f3f3">
+
+                <ImageView
+                    android:id="@+id/image_water"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/water_identifier_result" />
+
+                <TextView
+                    android:id="@+id/title_water"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watering"
+                    android:fontFamily="@font/lato"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/dark_green"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/value_water"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Specified"
+                    android:textSize="16dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/dark_green"
+                    app:layout_constraintStart_toStartOf="@+id/title_water"
+                    app:layout_constraintTop_toBottomOf="@+id/title_water" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#f3f3f3"
+            android:elevation="8dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:background="#f3f3f3">
+
+                <ImageView
+                    android:id="@+id/image_potting"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/potting_identifier_result" />
+
+                <TextView
+                    android:id="@+id/title_potting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Repotting"
+                    android:fontFamily="@font/lato"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/dark_green"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/value_potting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Every 2 to 3 years "
+                    android:textSize="16dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/dark_green"
+                    app:layout_constraintStart_toStartOf="@+id/title_potting"
+                    app:layout_constraintTop_toBottomOf="@+id/title_potting" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#f3f3f3"
+            android:elevation="8dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:background="#f3f3f3">
+
+                <ImageView
+                    android:id="@+id/image_fertilizer"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/fertilizer_identifier_result" />
+
+                <TextView
+                    android:id="@+id/title_fertilizer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fertilizing"
+                    android:fontFamily="@font/lato"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/dark_green"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/value_fertilizer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apply a balanced fertilizer during\nthe growing season"
+                    android:textSize="16dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/dark_green"
+                    app:layout_constraintStart_toStartOf="@+id/title_fertilizer"
+                    app:layout_constraintTop_toBottomOf="@+id/title_fertilizer" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#f3f3f3"
+            android:elevation="8dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:background="#f3f3f3">
+
+                <ImageView
+                    android:id="@+id/image_pests"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/pest_identifier_result" />
+
+                <TextView
+                    android:id="@+id/title_pests"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:fontFamily="@font/lato"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/dark_green"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/value_pests"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15°C to 30°C"
+                    android:textSize="16dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/dark_green"
+                    app:layout_constraintStart_toStartOf="@+id/title_pests"
+                    app:layout_constraintTop_toBottomOf="@+id/title_pests" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

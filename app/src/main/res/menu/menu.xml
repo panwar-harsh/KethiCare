@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/homeSection"
+        android:icon="@drawable/home_icon"
+        />
+    <item android:title="Diagnose"
+        android:id="@+id/diagnoseSection"
+        android:icon="@drawable/diagnose_icon"/>
+
+    <item android:title="My Plants"
+        android:id="@+id/myPlantSection"
+        android:icon="@drawable/myplant_icon"/>
+    <item android:title="Settings"
+        android:id="@+id/settingSection"
+        android:icon="@drawable/setting_icon"/>
+</menu>

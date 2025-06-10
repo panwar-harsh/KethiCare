@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- CardView Wrapper -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/toolCardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Inner ConstraintLayout -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <!-- Tool Image -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/toolImageCard"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <ImageView
+                    android:id="@+id/toolImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_placeholder" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- Tool Name -->
+            <TextView
+                android:id="@+id/toolNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Tool Name"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/merriweather_light"
+                app:layout_constraintStart_toEndOf="@id/toolImageCard"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Tool Price -->
+            <TextView
+                android:id="@+id/toolPriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Price: 100"
+                android:textColor="@color/endColor"
+                android:textSize="16sp"
+                android:fontFamily="@font/merriweather_light"
+                app:layout_constraintStart_toStartOf="@id/toolNameTextView"
+                app:layout_constraintTop_toBottomOf="@id/toolNameTextView" />
+
+            <!-- Negotiable Text -->
+            <TextView
+                android:id="@+id/toolNegotiableTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Negotiable"
+                android:textColor="@color/endColor"
+                android:textSize="14sp"
+                android:fontFamily="@font/merriweather_light"
+                app:layout_constraintStart_toStartOf="@id/toolPriceTextView"
+                app:layout_constraintTop_toBottomOf="@id/toolPriceTextView"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

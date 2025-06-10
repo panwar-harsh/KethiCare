@@ -1,0 +1,838 @@
+{
+    "Apple Scab": {
+        "plant": "Apple",
+        "disease": "Scab",
+        "causes": [
+            "Fungal infection (Venturia inaequalis)",
+            "Prolonged wet conditions"
+        ],
+        "temperature": "15-24\u00b0C",
+        "sunlight": "Full sun to partial shade",
+        "watering": "Moderate, avoid overhead watering",
+        "repotting": "Not applicable for orchard trees",
+        "fertilizing": "Balanced fertilizer in early spring",
+        "pests": [
+            "Aphids",
+            "Codling moth"
+        ],
+        "prevention": [
+            "Use resistant apple varieties.",
+            "Apply fungicides during early growth.",
+            "Ensure proper air circulation by pruning."
+        ]
+    },
+    "Apple Black Rot": {
+        "plant": "Apple",
+        "disease": "Black Rot",
+        "causes": [
+            "Fungal infection (Botryosphaeria obtusa)",
+            "Infected pruning wounds"
+        ],
+        "temperature": "20-30\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep watering, avoid leaf wetness",
+        "repotting": "Not applicable for orchard trees",
+        "fertilizing": "Use phosphorus-rich fertilizers",
+        "pests": [
+            "Apple maggot",
+            "Leafhoppers"
+        ],
+        "prevention": [
+            "Prune infected branches immediately.",
+            "Apply copper-based fungicides.",
+            "Keep orchard free from debris."
+        ]
+    },
+    "Apple Cedar Apple Rust": {
+        "plant": "Apple",
+        "disease": "Cedar  Rust",
+        "causes": [
+            "Viral infection",
+            "Fungal infection"
+        ],
+        "temperature": "10-22\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep but infrequent",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Balanced NPK fertilizer",
+        "pests": [
+            "Whiteflies",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Apple Healthy": {
+        "plant": "Apple",
+        "disease": "Healthy",
+        "causes": [
+            "Fungal infection",
+            "Viral infection"
+        ],
+        "temperature": "10-22\u00b0C",
+        "sunlight": "Full sun to partial shade",
+        "watering": "Consistent moisture",
+        "repotting": "Every 2-3 years",
+        "fertilizing": "Organic compost",
+        "pests": [
+            "Caterpillars",
+            "Whiteflies"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Blueberry Healthy": {
+        "plant": "Blueberry",
+        "disease": "Healthy",
+        "causes": [
+            "Viral infection",
+            "Fungal infection"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep but infrequent",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Thrips",
+            "Mites"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Cherry Including Sour Powdery Mildew": {
+        "plant": "Cherry",
+        "disease": "Including Sour Powdery Mildew",
+        "causes": [
+            "Nutrient deficiency",
+            "Viral infection"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Full sun to partial shade",
+        "watering": "Moderate",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Aphids",
+            "Whiteflies"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Cherry Including Sour Healthy": {
+        "plant": "Cherry",
+        "disease": "Including Sour Healthy",
+        "causes": [
+            "Pest infestation",
+            "Bacterial infection"
+        ],
+        "temperature": "10-22\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep but infrequent",
+        "repotting": "Every 2-3 years",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Thrips",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Corn Maize Cercospora Leaf Spot Gray Leaf Spot": {
+        "plant": "Corn",
+        "disease": "Maize Cercospora Leaf Spot Gray Leaf Spot",
+        "causes": [
+            "Pest infestation",
+            "Viral infection"
+        ],
+        "temperature": "20-28\u00b0C",
+        "sunlight": "Full sun to partial shade",
+        "watering": "Moderate",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Balanced NPK fertilizer",
+        "pests": [
+            "Thrips",
+            "Aphids"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Corn Maize Common Rust": {
+        "plant": "Corn",
+        "disease": "Maize Common Rust",
+        "causes": [
+            "Fungal infection",
+            "Nutrient deficiency"
+        ],
+        "temperature": "20-28\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Consistent moisture",
+        "repotting": "Not applicable",
+        "fertilizing": "Balanced NPK fertilizer",
+        "pests": [
+            "Thrips",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Corn Maize Northern Leaf Blight": {
+        "plant": "Corn",
+        "disease": "Maize Northern Leaf Blight",
+        "causes": [
+            "Viral infection",
+            "Pest infestation"
+        ],
+        "temperature": "15-25\u00b0C",
+        "sunlight": "Partial shade",
+        "watering": "Consistent moisture",
+        "repotting": "Every 2-3 years",
+        "fertilizing": "Organic compost",
+        "pests": [
+            "Thrips",
+            "Whiteflies"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Corn Maize Healthy": {
+        "plant": "Corn",
+        "disease": "Maize Healthy",
+        "causes": [
+            "Viral infection",
+            "Bacterial infection"
+        ],
+        "temperature": "20-28\u00b0C",
+        "sunlight": "Full sun to partial shade",
+        "watering": "Deep but infrequent",
+        "repotting": "Not applicable",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Aphids",
+            "Whiteflies"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Grape Black Rot": {
+        "plant": "Grape",
+        "disease": "Black Rot",
+        "causes": [
+            "Pest infestation",
+            "Fungal infection"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep but infrequent",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Organic compost",
+        "pests": [
+            "Thrips",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Grape Esca Black Measles": {
+        "plant": "Grape",
+        "disease": "Esca Black Measles",
+        "causes": [
+            "Nutrient deficiency",
+            "Viral infection"
+        ],
+        "temperature": "10-22\u00b0C",
+        "sunlight": "Partial shade",
+        "watering": "Moderate",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Balanced NPK fertilizer",
+        "pests": [
+            "Mites",
+            "Whiteflies"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Grape Leaf Blight Isariopsis Leaf Spot": {
+        "plant": "Grape",
+        "disease": "Leaf Blight Isariopsis Leaf Spot",
+        "causes": [
+            "Viral infection",
+            "Pest infestation"
+        ],
+        "temperature": "20-28\u00b0C",
+        "sunlight": "Partial shade",
+        "watering": "Deep but infrequent",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Balanced NPK fertilizer",
+        "pests": [
+            "Aphids",
+            "Mites"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Grape Healthy": {
+        "plant": "Grape",
+        "disease": "Healthy",
+        "causes": [
+            "Nutrient deficiency",
+            "Bacterial infection"
+        ],
+        "temperature": "20-28\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep but infrequent",
+        "repotting": "Not applicable",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Mites",
+            "Whiteflies"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Orange Haunglongbing Citrus Greening": {
+        "plant": "Orange",
+        "disease": "Haunglongbing Citrus Greening",
+        "causes": [
+            "Viral infection",
+            "Pest infestation"
+        ],
+        "temperature": "20-28\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep but infrequent",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Aphids",
+            "Mites"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Peach Bacterial Spot": {
+        "plant": "Peach",
+        "disease": "Bacterial Spot",
+        "causes": [
+            "Pest infestation",
+            "Nutrient deficiency"
+        ],
+        "temperature": "15-25\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep but infrequent",
+        "repotting": "Every 2-3 years",
+        "fertilizing": "Organic compost",
+        "pests": [
+            "Caterpillars",
+            "Thrips"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Peach Healthy": {
+        "plant": "Peach",
+        "disease": "Healthy",
+        "causes": [
+            "Nutrient deficiency",
+            "Viral infection"
+        ],
+        "temperature": "10-22\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Moderate",
+        "repotting": "Not applicable",
+        "fertilizing": "Organic compost",
+        "pests": [
+            "Thrips",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Pepper Bell Bacterial Spot": {
+        "plant": "Pepper",
+        "disease": "Bell Bacterial Spot",
+        "causes": [
+            "Bacterial infection",
+            "Viral infection"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Partial shade",
+        "watering": "Moderate",
+        "repotting": "Not applicable",
+        "fertilizing": "Organic compost",
+        "pests": [
+            "Aphids",
+            "Whiteflies"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Pepper Bell Healthy": {
+        "plant": "Pepper",
+        "disease": "Bell Healthy",
+        "causes": [
+            "Viral infection",
+            "Bacterial infection"
+        ],
+        "temperature": "20-28\u00b0C",
+        "sunlight": "Full sun to partial shade",
+        "watering": "Moderate",
+        "repotting": "Every 2-3 years",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Mites",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Potato Early Blight": {
+        "plant": "Potato",
+        "disease": "Early Blight",
+        "causes": [
+            "Pest infestation",
+            "Nutrient deficiency"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Partial shade",
+        "watering": "Consistent moisture",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Organic compost",
+        "pests": [
+            "Thrips",
+            "Aphids"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Potato Late Blight": {
+        "plant": "Potato",
+        "disease": "Late Blight",
+        "causes": [
+            "Fungal infection",
+            "Bacterial infection"
+        ],
+        "temperature": "10-22\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep but infrequent",
+        "repotting": "Every 2-3 years",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Caterpillars",
+            "Aphids"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Potato Healthy": {
+        "plant": "Potato",
+        "disease": "Healthy",
+        "causes": [
+            "Bacterial infection",
+            "Pest infestation"
+        ],
+        "temperature": "20-28\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep but infrequent",
+        "repotting": "Not applicable",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Thrips",
+            "Mites"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Raspberry Healthy": {
+        "plant": "Raspberry",
+        "disease": "Healthy",
+        "causes": [
+            "Bacterial infection",
+            "Pest infestation"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Full sun to partial shade",
+        "watering": "Moderate",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Aphids",
+            "Whiteflies"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Soybean Healthy": {
+        "plant": "Soybean",
+        "disease": "Healthy",
+        "causes": [
+            "Bacterial infection",
+            "Fungal infection"
+        ],
+        "temperature": "15-25\u00b0C",
+        "sunlight": "Full sun to partial shade",
+        "watering": "Consistent moisture",
+        "repotting": "Not applicable",
+        "fertilizing": "Organic compost",
+        "pests": [
+            "Caterpillars",
+            "Thrips"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Squash Powdery Mildew": {
+        "plant": "Squash",
+        "disease": "Powdery Mildew",
+        "causes": [
+            "Fungal infection",
+            "Nutrient deficiency"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Partial shade",
+        "watering": "Moderate",
+        "repotting": "Every 2-3 years",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Thrips",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Strawberry Leaf Scorch": {
+        "plant": "Strawberry",
+        "disease": "Leaf Scorch",
+        "causes": [
+            "Pest infestation",
+            "Bacterial infection"
+        ],
+        "temperature": "10-22\u00b0C",
+        "sunlight": "Partial shade",
+        "watering": "Deep but infrequent",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Organic compost",
+        "pests": [
+            "Whiteflies",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Strawberry Healthy": {
+        "plant": "Strawberry",
+        "disease": "Healthy",
+        "causes": [
+            "Viral infection",
+            "Nutrient deficiency"
+        ],
+        "temperature": "15-25\u00b0C",
+        "sunlight": "Full sun to partial shade",
+        "watering": "Deep but infrequent",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Balanced NPK fertilizer",
+        "pests": [
+            "Aphids",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Tomato Bacterial Spot": {
+        "plant": "Tomato",
+        "disease": "Bacterial Spot",
+        "causes": [
+            "Nutrient deficiency",
+            "Fungal infection"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Partial shade",
+        "watering": "Deep but infrequent",
+        "repotting": "Every 2-3 years",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Thrips",
+            "Whiteflies"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Tomato Early Blight": {
+        "plant": "Tomato",
+        "disease": "Early Blight",
+        "causes": [
+            "Viral infection",
+            "Fungal infection"
+        ],
+        "temperature": "20-28\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Consistent moisture",
+        "repotting": "Every 2-3 years",
+        "fertilizing": "Organic compost",
+        "pests": [
+            "Aphids",
+            "Thrips"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Tomato Late Blight": {
+        "plant": "Tomato",
+        "disease": "Late Blight",
+        "causes": [
+            "Nutrient deficiency",
+            "Viral infection"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep but infrequent",
+        "repotting": "Not applicable",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Mites",
+            "Whiteflies"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Tomato Leaf Mold": {
+        "plant": "Tomato",
+        "disease": "Leaf Mold",
+        "causes": [
+            "Viral infection",
+            "Pest infestation"
+        ],
+        "temperature": "15-25\u00b0C",
+        "sunlight": "Full sun to partial shade",
+        "watering": "Deep but infrequent",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Balanced NPK fertilizer",
+        "pests": [
+            "Whiteflies",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Tomato Septoria Leaf Spot": {
+        "plant": "Tomato",
+        "disease": "Septoria Leaf Spot",
+        "causes": [
+            "Nutrient deficiency",
+            "Pest infestation"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Partial shade",
+        "watering": "Consistent moisture",
+        "repotting": "Every 2-3 years",
+        "fertilizing": "Balanced NPK fertilizer",
+        "pests": [
+            "Thrips",
+            "Aphids"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Tomato Spider Mites Two Spotted Spider Mite": {
+        "plant": "Tomato",
+        "disease": "Spider Mites Two Spotted Spider Mite",
+        "causes": [
+            "Bacterial infection",
+            "Viral infection"
+        ],
+        "temperature": "20-28\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Moderate",
+        "repotting": "Every 2-3 years",
+        "fertilizing": "Phosphorus-rich fertilizer",
+        "pests": [
+            "Caterpillars",
+            "Aphids"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Tomato Target Spot": {
+        "plant": "Tomato",
+        "disease": "Target Spot",
+        "causes": [
+            "Fungal infection",
+            "Nutrient deficiency"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep but infrequent",
+        "repotting": "Not applicable",
+        "fertilizing": "Balanced NPK fertilizer",
+        "pests": [
+            "Aphids",
+            "Mites"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Tomato Tomato Yellow Leaf Curl Virus": {
+        "plant": "Tomato",
+        "disease": "Yellow Leaf Curl Virus",
+        "causes": [
+            "Pest infestation",
+            "Viral infection"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Full sun",
+        "watering": "Deep but infrequent",
+        "repotting": "Not applicable",
+        "fertilizing": "Balanced NPK fertilizer",
+        "pests": [
+            "Whiteflies",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Tomato Tomato Mosaic Virus": {
+        "plant": "Tomato",
+        "disease": "Mosaic Virus",
+        "causes": [
+            "Fungal infection",
+            "Pest infestation"
+        ],
+        "temperature": "10-22\u00b0C",
+        "sunlight": "Full sun to partial shade",
+        "watering": "Deep but infrequent",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Organic compost",
+        "pests": [
+            "Thrips",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    },
+    "Tomato Healthy": {
+        "plant": "Tomato",
+        "disease": "Healthy",
+        "causes": [
+            "Bacterial infection",
+            "Viral infection"
+        ],
+        "temperature": "18-30\u00b0C",
+        "sunlight": "Full sun to partial shade",
+        "watering": "Deep but infrequent",
+        "repotting": "Yearly for potted plants",
+        "fertilizing": "Organic compost",
+        "pests": [
+            "Mites",
+            "Caterpillars"
+        ],
+        "prevention": [
+            "Use disease-resistant varieties.",
+            "Apply fungicides or pesticides as needed.",
+            "Ensure good air circulation around plants."
+        ]
+    }
+}

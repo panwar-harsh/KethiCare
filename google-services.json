@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "208938573044",
+    "firebase_url": "https://leaflog-66f4c-default-rtdb.firebaseio.com",
+    "project_id": "leaflog-66f4c",
+    "storage_bucket": "leaflog-66f4c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208938573044:android:8937041291ac307e5e12a1",
+        "android_client_info": {
+          "package_name": "com.example.greendoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208938573044-o5csj2s7tq90cl5hisovetl27sueq4q8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.greendoc",
+            "certificate_hash": "5ffe1e41b5bb5ea9667f6887af9e2d77e31a574e"
+          }
+        },
+        {
+          "client_id": "208938573044-qjvmcvld6n8v2tierqgtp72515l60r5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWAaadHnXY2Irgf333dgjOQcB2Jl6Ov68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208938573044-589q5qq0f956pch6cjlvf5ifjj895let.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

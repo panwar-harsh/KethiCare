@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208938573044",
+    "project_id": "leaflog-66f4c",
+    "storage_bucket": "leaflog-66f4c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208938573044:android:8937041291ac307e5e12a1",
+        "android_client_info": {
+          "package_name": "com.example.greendoc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWAaadHnXY2Irgf333dgjOQcB2Jl6Ov68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

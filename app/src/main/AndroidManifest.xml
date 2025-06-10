@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- camera permission -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:name=".cloudinary.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/appicon"
+        android:label="Plant Addict"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GreenDoc"
+        tools:targetApi="31">
+        <activity
+            android:name=".WaterResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WaterStepsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectPlantBottomSheet"
+            android:exported="false" />
+        <activity
+            android:name=".WaterCalculatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlantIdentifierResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ecommerce.OptionsActivity"
+            android:exported="false" />
+        <activity android:name=".Documentation.RiceActivity" />
+        <activity android:name=".Documentation.MangoActivity" />
+        <activity android:name=".Documentation.RagiActivity" />
+        <activity android:name=".Documentation.TurmericGingerActivity" />
+        <activity android:name=".Documentation.CinnamonActivity" />
+        <activity android:name=".Documentation.BetelNutActivity" />
+        <activity android:name=".Documentation.NuteActivity" />
+        <activity android:name=".Documentation.ChikuActivity" />
+        <activity android:name=".Documentation.CoconutActivity" />
+        <activity android:name=".Documentation.PepperActivity" />
+        <activity android:name=".Documentation.MograActivity" />
+        <activity android:name=".Documentation.VegetableActivity" />
+        <activity
+            android:name=".Ecommerce.AuthActivity"
+            android:exported="true" />
+        <activity android:name=".Ecommerce.UploadToolActivity" />
+        <activity android:name=".Ecommerce.SignUpActivity" />
+        <activity android:name=".Ecommerce.HomeScreenActivity" />
+        <activity android:name=".Ecommerce.EditToolActivity" />
+        <activity android:name=".Ecommerce.ToolDetailActivity" />
+        <activity android:name=".Ecommerce.MyListingsActivity" />
+        <activity android:name=".Ecommerce.ToolListActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.greendoc.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".DiagnosisResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CameraActivityDiagnose"
+            android:exported="false" />
+        <activity
+            android:name=".PlantIdentifier"
+            android:exported="false" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="false" />
+        <activity android:name=".LightMeterActivity" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GreenDoc" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

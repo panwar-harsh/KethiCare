@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/toolImageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/placeholder_image" />
+
+        <TextView
+            android:id="@+id/toolNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:fontFamily="@font/merriweather_light"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/toolPriceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:fontFamily="@font/merriweather_light"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/toolCategoryTextView"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:fontFamily="@font/merriweather_light"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/toolNegotiableTextView"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:fontFamily="@font/merriweather_light"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/toolContactTextView"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:fontFamily="@font/merriweather_light"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/callSellerButton"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="Call Seller"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:fontFamily="@font/merriweather_light"
+            android:textSize="18sp"
+            android:background="@drawable/next_button_shape"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GreenDoc</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">208938573044-qjvmcvld6n8v2tierqgtp72515l60r5q.apps.googleusercontent.com</string>
+    <string-array name="tool_categories">
+        <item>Tractors</item>
+        <item>Plows</item>
+        <item>Irrigation Tools</item>
+        <item>Harvesters</item>
+        <item>Seeders</item>
+    </string-array>
+
+</resources>
