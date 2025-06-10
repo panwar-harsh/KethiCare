@@ -1,6 +1,6 @@
 <h2 align="center"><u>KethiCare Android App</u></h2>
 
-![Smart Farming Assistant](https://cdn-icons-png.flaticon.com/512/3076/3076129.png)
+![Smart Farming Assistant](https://cdn-icons-png.flaticon.com/128/7361/7361791.png)
 <h4 align="center">Empowering Farmers with AI for Smart Agriculture 🌾</h4>
 
 <p align="center">
